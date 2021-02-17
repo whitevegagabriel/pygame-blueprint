@@ -1,0 +1,97 @@
+ Maps stuff
+
+
+#########################################################################
+##    #maps.draw.rect(win, (255, 0, 0) ( -250, maps.
+##    if ( maps.x < -250 and maps.x > -300) and (maps.y < -250 or maps.y > -300):
+##        print('teleport')
+####        maps.x = -2110
+####        maps.y = -430
+
+     
+ (left)
+##        player.CameraX -= vel
+
+##        if maps.x == 0:
+##            if player.x == 0:
+##                player.isstanding = False
+##                player.isleft = True
+##                player.isright = False
+##                pass
+##            else:
+##                player.isstanding = False
+##                player.isleft = True
+##                player.isright = False
+##                player.x -= vel
+##
+##            pass
+##        else:
+##            player.isstanding = False
+##            player.isleft = True
+##            player.isright = False
+##            maps.x += vel
+##        
+       
+
+
+
+
+(right)
+
+
+##        player.CameraX += vel
+
+##        if player.x < 200:
+##            player.x += vel
+##            player.isstanding = False
+##            player.isleft = False
+##            player.isright = True
+##        else:
+##            player.isstanding = False
+##            player.isleft = False
+##            player.isright = True
+##            maps.x -= vel
+
+
+(up)
+##        player.CameraY -= vel
+
+##        if maps.y == -1860 and player.y > 200:
+##            print('asdasdaddasdasdasdasdasdasdasd')
+##            player.y -= vel
+####            
+##        elif maps.y == 0:
+##            if player.y == 0:
+##                pass
+##            else:
+##                player.y -= vel
+##            pass             
+##        else:
+##            maps.y += vel
+
+
+(down)
+
+
+##        player.CameraY += vel
+
+##        if maps.y == 0 and player.y < 200:
+##            print('onnit')
+##            player.y += vel
+            
+##        elif maps.y == -1860:
+##            if player.y == 520 :
+##               pass
+##            else:
+##                player.y += vel
+##            pass
+##        else:
+##            #print('im here')
+##            maps.y -= vel
+#########################################################################    
+
+
+
+Heathbar 
+
+   # pygame.draw.rect(win, (255,0,255), player.healthbar)

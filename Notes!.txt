@@ -1,0 +1,3 @@
+To leave NPC in place while map moves, only update CameraX and CameraY values
+
+to indent '\t'
